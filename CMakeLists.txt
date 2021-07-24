@@ -1,0 +1,8 @@
+cmake_minimum_required (VERSION 2.6)
+project(convttf)
+find_package(Freetype REQUIRED)
+SET(CMAKE_CXX_FLAGS "-O2 -std=c99")
+SET(CMAKE_EXE_LINKER_FLAGS "-v")
+add_executable( convttf convttf.c)
+target_link_libraries(convttf ${FREETYPE_LIBRARIES})
+target_include_directories(convttf PRIVATE ${FREETYPE_INCLUDE_DIRS})
