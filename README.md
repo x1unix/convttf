@@ -1,6 +1,6 @@
 # convttf
 
-Convttf - TTF to FNT font converted for Rockbox firmware.
+Convttf - TTF to FNT font converter for Rockbox firmware.
 
 ## Description
 
